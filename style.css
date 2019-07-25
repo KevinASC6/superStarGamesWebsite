@@ -1,0 +1,166 @@
+body{
+    background-color:black;
+    color:white;
+}
+.top > h1{
+    font-family: 'Exo 2', sans-serif;
+    font-size:40px;
+    text-align: center;
+}
+
+
+
+.mid > h2{
+    font-family: 'Exo 2', sans-serif;
+    font-size:40px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px !important;
+}
+
+.navbar{
+    display: flex;
+    width:auto;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.navbar> h3{
+    padding-left: 30px;
+    padding-right:30px;
+}
+
+#First_Three{
+    display:flex;
+    height:997px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+#Spiderman{
+    display: flex;
+    flex-direction: column;
+    width:519px;
+    height:685px;
+    text-align: center;
+    font-size:13px;
+    background-color:rgb(105,105,105);
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin:10px;
+}
+
+#Spiderman > img{
+    height: 80%;
+    padding:10px;
+}
+
+#Spiderman > h3{
+    margin:0px;
+}
+
+#Fortnite{
+    display: flex;
+    flex-direction: column;
+    width:519px;
+    height:335px;
+    text-align: center;
+    font-size:13px;
+    background-color:rgb(105,105,105);
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:10px;
+}
+
+#Fortnite > img{
+    height:70%;
+    width:90%;
+    padding:5px;
+    padding-top: 10px !important;
+    margin:0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5px;
+}
+
+#Fortnite > h2{
+    padding:0px;
+    margin:3px;
+}
+
+#Fortnite > h3{
+    padding-bottom:0px;
+    margin:0px;
+}
+
+#GTA{
+    display: flex;
+    flex-direction: column;
+    width:519px;
+    height:325px;
+    text-align: center;
+    font-size:13px;
+    background-color:rgb(105,105,105);
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:20px;
+    padding-bottom: 5px;
+}
+
+#GTA > img{
+    height:70%;
+    width:90%;
+    padding:5px;
+    padding-top: 10px !important;
+    margin:0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5px;
+}
+
+#GTA > h2{
+    padding:0px;
+    margin:3px;
+}
+
+#GTA > h3{
+    padding:0px;
+    margin:0px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Anton', sans-serif;
+    color: black
+}	 
+
+@media screen and (max-width: 500px) {
+    #First_Three{
+        flex-wrap: nowrap;
+    }
+
+    #Spiderman{
+        width:auto;
+    }
+
+    #GTA{
+        width:auto;
+    }
+
+    #Fortnite{
+        width:auto;
+    }
+  }
+  
